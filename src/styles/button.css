@@ -1,0 +1,10 @@
+.button {
+    all: unset;
+    padding: 5px 15px;
+    background-color: var(--tertiary-color);
+    text-align: center;
+    border: 2px solid var(--tertiary-color);
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}

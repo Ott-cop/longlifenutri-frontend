@@ -1,0 +1,15 @@
+#title {
+    text-align: center;
+}
+
+#t-long {
+    color: var(--primary-color);
+}
+
+#t-life {
+    color: var(--secundary-color);
+}
+
+#t-nutri {
+    color: var(--tertiary-color);
+}

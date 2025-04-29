@@ -1,0 +1,44 @@
+@import url("styles/main.css");
+@import url("styles/input.css");
+@import url("styles/title.css");
+@import url("styles/button.css");
+@import url("styles/product.css");
+@import url("styles/loader.css");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: var(--auxiliary-color);
+  background-color: #fff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --primary-color: #02ade3;
+  --secundary-color: #8dc740;
+  --tertiary-color: #f7921d;
+  --auxiliary-color: #797979;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+  display: grid;
+  gap: 10px;
+  width: 1100px;
+  /* justify-content: center; */
+}
+
